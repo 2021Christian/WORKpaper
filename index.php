@@ -52,9 +52,9 @@
                 <div class="row">
                     <div class="four columns">
                         <ul class="navct">
-                            <li class="four columns "><a href="index.html">Inicio</a></li>
-                            <li class="four columns "><a href="sobre.html">Nosotros</a></li>
-                            <li class="four columns "><a href="Contacto.html">Contacto</a></li>
+                            <li class="four columns "><a href="index.php">Inicio</a></li>
+                            <li class="four columns "><a href="sobre.php">Nosotros</a></li>
+                            <li class="four columns "><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
         </div>
     </header>
 
-    <!--<div id="hero">
+    <div id="hero">
         <div class="container">
             <div class="row">
                 <div class="six columns">
@@ -78,9 +78,9 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
-    <!--<div class="barra">
+    <div class="barra">
         <div class="container">
             <div class="row">
                 <div class="four columns icono icono1">
@@ -89,7 +89,7 @@
                     </p>
                 </div>
                 <div class="four columns icono icono2">
-                    <p>cuidamos <br> el medio ambiente.
+                    <p>Cuidamos <br> el medio ambiente.
                     </p>
                 </div>
                 <div class="four columns icono icono3">
@@ -98,66 +98,14 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
     <div id="lista-cafe" class="container">
-        <h1 id="encabezado" class="encabezado">Contacto</h1>
-        <div class="info-contacto">
-            <p>Cel: 11 6239-9609/ 4455-0172</p>
-            <p>Av.Ricardo Balbin 4255, San Miguel.</p>
-            <p>Buenos Aires(GBA), Argentina.</p>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="four columns">
-                <div class="iconos">
-                    <a href="https://www.facebook.com/De.parvis.grandis.acervus.erit" target="_blank"><img
-                            src="img-workpaper/facebook.png" width="60" height="60" alt="facebook"></a>
-                    <a href="https://www.instagram.com/ju4nmr0j4s/" target="_blank"><img src="img-workpaper/instagram.png"
-                            width="60" height="60" alt="instagram"></a>
-                    <a href="mailto:juanrojas0407542@outlook.com" target="_blank"><img src="img-workpaper/mail.png" width="60"
-                            height="60" alt="email"></a>
-                </div>
-
-                <!--<div class="card">
-                    <img src="img/coffee1.png" class="u-full-width">
-                    <div class="info-card">
-                        <h4>Resma A4</h4>
-                        <p>Autor</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$500 <span class="u-pull-right">$420</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito                        
-                        ">Agregar Al Carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/coffee2.png" class="u-full-width">
-                    <div class="info-card">
-                        <h4>Caja Hojas A4 (10 Resmas)</h4>
-                        <p>Autor</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$5000 <span class="u-pull-right">$4200</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito                        
-                        ">Agregar Al Carrito</a>
-                    </div>
-                </div>
-            </div>
-            <div class="four columns">
-                <div class="card">
-                    <img src="img/coffee3.png" class="u-full-width">
-                    <div class="info-card">
-                        <h4>Resma Oficio</h4>
-                        <p>Autor</p>
-                        <img src="img/estrellas.png">
-                        <p class="precio">$550 <span class="u-pull-right">$490</span></p>
-                        <a href="#" class="u-full-width button-primary button input agregar-carrito                        
-                        ">Agregar Al Carrito</a>
-                    </div>
-                </div>-->
-            </div>
+        <h1 id="encabezado" class="encabezado">Pedidos en linea</h1>
+        <!-- aca traigo los productos -->
+        <div class="row" id="space-list">
+            
+            
         </div>
         <!--.row-->
     </div>
@@ -185,6 +133,7 @@
 
     <script src="js/app.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/chris.js"></script>        
 </body>
 
 </html>

@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workpaper</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/normalize-sobre.css">
+    <link rel="stylesheet" href="css/skeleton-sobre.css">
+    <link rel="stylesheet" href="css/custom-sobre.css">
+    <link rel="stylesheet" href="css/fontello-sobre.css">
 </head>
 <link  rel="icon"   href="img-workpaper/favicon1.ico" type="image/png" />
 
@@ -52,9 +52,9 @@
                 <div class="row">
                     <div class="four columns">
                         <ul class="navct">
-                            <li class="four columns "><a href="index.html">Inicio</a></li>
-                            <li class="four columns "><a href="sobre.html">Nosotros</a></li>
-                            <li class="four columns "><a href="Contacto.html">Contacto</a></li>
+                            <li class="four columns "><a href="index.php">Inicio</a></li>
+                            <li class="four columns "><a href="sobre.php">Nosotros</a></li>
+                            <li class="four columns "><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
@@ -68,19 +68,16 @@
             <div class="row">
                 <div class="six columns">
                     <div class="contenido-hero">
-                        <h2>Lider en venta de insumos para la impresión</h2>
-                        <p>Las resmas más económicas del mercado</p>
-                        <form action="#" id="busqueda" method="post" class="formulario">
-                            <input class="u-full-width" type="text" placeholder="Que te gustaria comprar" id="buscador">
-                            <input type="submit" id="submit-buscador" class="submit-buscador">
-                        </form>
+                        <h2>¿Quienes somos?</h2>
+                        <p>WORKpaper® es una empresa Argentina dedicada a la comercialización y distribución de artículos de papelera con la más alta calidad de productos en todas sus variedades. Somos distribuidores directos de marcas líderes en el mercado y de esa forma podemos ofrecerle la mejor relación entre calidad y precio. <br>
+                            Contamos con una amplia variedad de productos y stock permanente y así poder abastecer a todos nuestros clientes en tiempo y forma.También ofrecemos el servicio de entregas a domicilio en ventas por mayor o menor. El objetivo es lograr satisfacer a nuestros clientes con los mejores precios, la mejor calidad y entregas 100% responsables.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="barra">
+    <!--<div class="barra">
         <div class="container">
             <div class="row">
                 <div class="four columns icono icono1">
@@ -89,7 +86,7 @@
                     </p>
                 </div>
                 <div class="four columns icono icono2">
-                    <p>Cuidamos <br> el medio ambiente.
+                    <p>cuidamos <br> el medio ambiente.
                     </p>
                 </div>
                 <div class="four columns icono icono3">
@@ -98,18 +95,34 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <div id="lista-cafe" class="container">
-        <h1 id="encabezado" class="encabezado">Pedidos en linea</h1>
+        <h1 id="encabezado" class="encabezado">Contactanos</h1>
+        <div class="info-contacto">
+            <p>Cel: 11 6239-9609/ 4455-0172</p>
+            <p>Av.Ricardo Balbin 4255, San Miguel.</p>
+            <p>Buenos Aires(GBA), Argentina.</p>
+        </div>
+        <br>
+        <br>
         <div class="row">
             <div class="four columns">
-                <div class="card">
-                    <img src="img-workpaper/coffee1.png" class="u-full-width">
+                <div class="iconos">
+                    <a href="https://www.facebook.com/De.parvis.grandis.acervus.erit" target="_blank"><img
+                            src="img-workpaper/facebook.png" width="60" height="60" alt="facebook"></a>
+                    <a href="https://www.instagram.com/ju4nmr0j4s/" target="_blank"><img src="img-workpaper/instagram.png"
+                            width="60" height="60" alt="instagram"></a>
+                    <a href="mailto:juanrojas0407542@outlook.com" target="_blank"><img src="img-workpaper/mail.png" width="60"
+                            height="60" alt="email"></a>
+                </div>
+
+                <!--<div class="card">
+                    <img src="img/coffee1.png" class="u-full-width">
                     <div class="info-card">
                         <h4>Resma A4</h4>
                         <p>Autor</p>
-                        <img src="img-workpaper/estrellas.png">
+                        <img src="img/estrellas.png">
                         <p class="precio">$500 <span class="u-pull-right">$420</span></p>
                         <a href="#" class="u-full-width button-primary button input agregar-carrito                        
                         ">Agregar Al Carrito</a>
@@ -118,11 +131,11 @@
             </div>
             <div class="four columns">
                 <div class="card">
-                    <img src="img-workpaper/coffee2.png" class="u-full-width">
+                    <img src="img/coffee2.png" class="u-full-width">
                     <div class="info-card">
                         <h4>Caja Hojas A4 (10 Resmas)</h4>
                         <p>Autor</p>
-                        <img src="img-workpaper/estrellas.png">
+                        <img src="img/estrellas.png">
                         <p class="precio">$5000 <span class="u-pull-right">$4200</span></p>
                         <a href="#" class="u-full-width button-primary button input agregar-carrito                        
                         ">Agregar Al Carrito</a>
@@ -131,16 +144,16 @@
             </div>
             <div class="four columns">
                 <div class="card">
-                    <img src="img-workpaper/coffee3.png" class="u-full-width">
+                    <img src="img/coffee3.png" class="u-full-width">
                     <div class="info-card">
                         <h4>Resma Oficio</h4>
                         <p>Autor</p>
-                        <img src="img-workpaper/estrellas.png">
+                        <img src="img/estrellas.png">
                         <p class="precio">$550 <span class="u-pull-right">$490</span></p>
                         <a href="#" class="u-full-width button-primary button input agregar-carrito                        
                         ">Agregar Al Carrito</a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <!--.row-->
